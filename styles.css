@@ -1,24 +1,46 @@
 body {
     background-color: orange;
     color: white;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 48px;
 }
 
 .title, .subtitle {
     text-align: center;
 }
 
-.hero {
-    width: 750px;
+.hero, .recipe-hero {
+    width: 700px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
 }
 
 .menu {
+    text-align: center;
+    list-style: none;
+}
+
+.menu li {
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+p {
     text-align: center;
 }
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 .nav {
     text-align: center;
+    /* margin-top: 32px; */
 }
